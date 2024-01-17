@@ -12,4 +12,11 @@ ZSH_THEME="robbyrussell"
 
 source $ZSH/oh-my-zsh.sh
 
-# comment
+# Aliases
+gs () {
+    git status
+}
+
+gcam () {
+    git commit -am "$1"
+}
